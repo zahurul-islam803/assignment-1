@@ -34,7 +34,10 @@ body {
   font-weight: 800;
   color: #272727;
 }
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* Header related css */
 .header-container {
   display: flex;
@@ -55,7 +58,7 @@ body {
 
 /* Featured related css */
 .featured-container {
-  padding: 0px 200px;
+  padding: 40px 0px;
 }
 .featured-info {
   text-align: center;
@@ -66,8 +69,8 @@ body {
 }
 .featured-banner {
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 40px;
 }
 .item {
   width: 350px;
@@ -108,8 +111,7 @@ body {
 
 /* Contact section css */
 .contact-container {
-  padding: 40px 200px;
-  margin: 30px 0px;
+  padding: 40px 0px;
 }
 .contact-items {
   display: flex;
@@ -132,16 +134,16 @@ body {
 
 /* Service related css */
 .service-container {
-  padding: 0px 200px;
+  padding: 40px 0px;
 }
 .service-info {
   text-align: center;
 }
 .service-gallery {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 40px;
-  gap: 20px;
+  gap: 45px;
   text-align: center;
 }
 
@@ -187,27 +189,27 @@ body {
 }
 
 /* Social related  css */
-.social-container{
-  padding: 70px 200px;
+.social-container {
+  padding: 40px 0px;
 }
-.social-info{
+.social-info {
   text-align: center;
 }
-.social-gallery{
+.social-gallery {
   display: flex;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 10px;
   margin-top: 45px;
 }
-.social-img{
+.social-img {
   width: 260px;
 }
 
 /* Deals related css */
-.deals-container{
-   padding: 40px 200px;
+.deals-container {
+  padding: 40px 0px;
 }
-.deals{
+.deals {
   text-align: center;
   padding: 100px 90px 90px 60px;
   background-image: url("../Flower Asset/Rectangle\ 9.png");
@@ -220,7 +222,7 @@ body {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
-input{
+input {
   border: 0;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -233,27 +235,27 @@ input{
 }
 
 /* Footer related css */
-.footer-container{
+.footer-container {
   background-color: black;
   border: 0;
   padding: 120px 150px 80px;
   margin-top: 50px;
 }
-.footer-info{
+.footer-info {
   text-align: center;
 }
-.footer-desc{
-  color: rgba(255, 255, 255, 0.80);
+.footer-desc {
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   line-height: 30px;
   margin: 20px 0px;
 }
-.footer-title{
+.footer-title {
   font-size: 30px;
   font-weight: 800;
   color: white;
 }
-.footer-copyRight{
+.footer-copyRight {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.40);
+  color: rgba(255, 255, 255, 0.4);
 }
