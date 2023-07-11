@@ -3,9 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
 /* Common css */
 body {
   font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
 .btn {
   padding: 15px 25px;
@@ -24,6 +26,7 @@ body {
   margin: 18px 0px;
   color: rgba(39, 39, 39, 0.6);
 }
+
 /* Header related css */
 .header-container {
   display: flex;
@@ -41,55 +44,116 @@ body {
   padding-top: 25px;
   margin-bottom: -3px;
 }
+
 /* Featured related css */
-.featured-container{
+.featured-container {
   padding: 0px 200px;
 }
-.featured-info{
+.featured-info {
   text-align: center;
   margin-top: 130px;
 }
-.featured-title{
+.featured-title {
   font-size: 30px;
   font-weight: bolder;
   color: #272727;
 }
-.featured-item{
+.featured-item {
   padding: 20px 0px;
 }
-.featured-banner{
+.featured-banner {
   display: flex;
   justify-content: space-around;
   gap: 20px;
 }
-.item{
-  width: 400px;
-  height: 500px;
+.item {
+  width: 350px;
+  height: 450px;
   border-radius: 300px 300px 0px 0px;
   -webkit-border-radius: 300px 300px 0px 0px;
   -moz-border-radius: 300px 300px 0px 0px;
   -ms-border-radius: 300px 300px 0px 0px;
   -o-border-radius: 300px 300px 0px 0px;
 }
-.bg-1{
+.bg-1 {
   background-color: rgba(167, 33, 98, 0.15);
 }
-.bg-2{
+.bg-2 {
   background-color: rgba(5, 151, 160, 0.15);
 }
-.bg-3{
+.bg-3 {
   background-color: rgba(71, 125, 17, 0.15);
 }
-.banner-img{
+.banner-img {
   padding: 30px 70px 0px 40px;
+  width: 278px;
 }
-.featured-name{
+.featured-name {
   text-align: center;
   margin-top: 20px;
   text-decoration: underline;
   font-weight: bolder;
   font-size: 20px;
 }
-.img-1, .img-2{
+.img-1,
+.img-2 {
+  margin-top: 36px;
+}
+.img-3 {
+  margin-top: 3px;
+}
+
+/* Contact section css */
+.contact-container {
+  padding: 40px 200px;
+  margin: 30px 0px;
+}
+.contact-items {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(39, 39, 39, 0.05);
+  border: 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.contact-item {
+  padding: 60px 0px;
+  text-align: center;
+}
+.contact-title {
+  margin-top: 15px;
+}
+
+/* Service related css */
+.service-info {
+  text-align: center;
+}
+.service-gallery {
+  display: flex;
+  justify-content: space-around;
+}
+.service-title {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #272727;
+}
+.service-gallery{
   margin-top: 40px;
+  text-align: center;
+}
+.service-name{
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.service-img{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
