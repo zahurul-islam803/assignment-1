@@ -23,7 +23,7 @@ body {
 .primary-desc {
   font-size: 18px;
   line-height: 25px;
-  margin: 18px 0px;
+  margin: 20px 0px;
   color: rgba(39, 39, 39, 0.6);
 }
 .primary-color {
@@ -186,4 +186,21 @@ body {
 .hotDeals-photo {
   width: 200px;
   padding-right: 40px;
+}
+
+/* Social related  css */
+.social-container{
+  padding: 70px 200px;
+}
+.social-info{
+  text-align: center;
+}
+.social-gallery{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 45px;
+}
+.social-img{
+  width: 260px;
 }
