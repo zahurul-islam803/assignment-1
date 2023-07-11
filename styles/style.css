@@ -1,0 +1,44 @@
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Common css */
+body {
+  font-family: "Lato", sans-serif;
+}
+.btn{
+  padding: 15px 25px;
+  background-color: #E55473;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+/* Header related css */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 140px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.header-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.header-desc{
+  font-size: 15px;
+  line-height: 20px;
+  margin: 18px 0px;
+  color: rgba(39, 39, 39, 0.60);
+}
+.header-img{
+  padding-top: 25px;
+  margin-top: 20px;
+}
+
