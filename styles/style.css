@@ -238,7 +238,7 @@ input{
 .footer-container{
   background-color: black;
   border: 0;
-  padding: 115px 150px;
+  padding: 120px 150px 80px;
   margin-top: 50px;
 }
 .footer-info{
